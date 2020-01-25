@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me About Your Favorite</title>
+    @Styles.Render("~/Content/Favorite.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <header>
+        <h2>Whats Favorite Activity</h2>
+    </header>
+    <form name="favorite" method="post">
+        
+        <p>Activity Name: <input type="text" name="name" id="name" /></p>
+        <p>Hours of engagemnt:<input type="text" value="50" name="hours" id="hours" />
+        <p>
+           Do you mind sharing with other people:
+            <select name="shareable">
+                <option value="true">true</option>
+                <option value="false">false</option>
+            </select>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+
+</body>
+</html>
