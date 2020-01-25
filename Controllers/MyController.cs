@@ -8,7 +8,7 @@ namespace MVCMyFirst.Controllers
 {
     public class MyController : Controller
     {
-        // this is a comment
+        
         // GET: My
         public ActionResult Index()
         {
@@ -64,7 +64,7 @@ namespace MVCMyFirst.Controllers
             }
             else
             {
-                ViewBag.message = "Thank you for filling out the form.  I won't share your favortie activity."
+                ViewBag.message = "Thank you for filling out the form.  I won't share your favortie activity.";
             }
             return View("ThankYou");
         }
