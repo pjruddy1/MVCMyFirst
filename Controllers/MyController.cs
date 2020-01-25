@@ -8,6 +8,7 @@ namespace MVCMyFirst.Controllers
 {
     public class MyController : Controller
     {
+        // this is a comment
         // GET: My
         public ActionResult Index()
         {
